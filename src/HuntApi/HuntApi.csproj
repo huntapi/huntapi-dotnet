@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>HuntApi</AssemblyName>
+    <RootNamespace>HuntApi</RootNamespace>
+    <PackageId>HuntApi</PackageId>
+    <VersionPrefix>0.1.0</VersionPrefix>
+    <Title>HuntAPI .NET SDK</Title>
+    <Authors>HuntAPI</Authors>
+    <Company>HuntAPI</Company>
+    <Copyright>Copyright (c) 2026 HuntAPI</Copyright>
+    <Description>Official .NET SDK for the HuntAPI media download API.</Description>
+    <PackageTags>video-download-api;audio-download-api;media-metadata;async-api;api;sdk;huntapi</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://www.huntapi.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/huntapi/huntapi-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" Link="README.md" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" Link="LICENSE" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="HuntApi.Tests" />
+  </ItemGroup>
+</Project>

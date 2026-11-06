@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuntApi", "src\HuntApi\HuntApi.csproj", "{E6443CE0-EC66-52DB-98F6-57A433CB70F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuntApi.Tests", "tests\HuntApi.Tests\HuntApi.Tests.csproj", "{2AC2E37D-4F16-5671-A61E-2D12ECC26779}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6443CE0-EC66-52DB-98F6-57A433CB70F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6443CE0-EC66-52DB-98F6-57A433CB70F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6443CE0-EC66-52DB-98F6-57A433CB70F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6443CE0-EC66-52DB-98F6-57A433CB70F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC2E37D-4F16-5671-A61E-2D12ECC26779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC2E37D-4F16-5671-A61E-2D12ECC26779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC2E37D-4F16-5671-A61E-2D12ECC26779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC2E37D-4F16-5671-A61E-2D12ECC26779}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
